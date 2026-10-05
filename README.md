@@ -2,6 +2,7 @@
 
 [![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v13-orange.svg)](https://foundryvtt.com/)
 [![D&D 5e System](https://img.shields.io/badge/dnd5e-5.3+-red.svg)](https://github.com/foundryvtt/dnd5e)
+[![Release](https://img.shields.io/github/v/release/Crespo767/curse-of-strahd-pt-br?color=blue)](https://github.com/Crespo767/curse-of-strahd-pt-br/releases/latest)
 [![Idioma](https://img.shields.io/badge/Idioma-Portugu%C3%AAs%20(Brasil)-green.svg)]()
 
 Biblioteca completa de compêndios traduzidos e adaptados em **Português Brasileiro (PT-BR)** para o cenário e aventuras góticas de **Curse of Strahd (Maldição de Strahd)** e **Van Richten's Guide to Ravenloft (Guia de Van Richten para Ravenloft)** no **Foundry VTT** (sistema D&D 5e).

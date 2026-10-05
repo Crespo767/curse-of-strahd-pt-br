@@ -1,0 +1,63 @@
+name: Release Module
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare Clean Package
+        run: |
+          mkdir -p package/curse-of-strahd-pt-br
+          cp -r assets lang packs scripts module.json README.md package/curse-of-strahd-pt-br/
+          find package/curse-of-strahd-pt-br -name "LOCK" -delete || true
+          find package/curse-of-strahd-pt-br -name "LOG*" -delete || true
+          find package/curse-of-strahd-pt-br -name "*.log" -delete || true
+          cd package
+          zip -r ../curse-of-strahd-pt-br.zip curse-of-strahd-pt-br
+          cd ..
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }} - Curse of Strahd & Ravenloft | Compêndios PT-BR
+          body: |
+            ## 🦇 Curse of Strahd & Ravenloft | Compêndios PT-BR - ${{ github.ref_name }}
+
+            Biblioteca completa em Português Brasileiro (PT-BR) para **Curse of Strahd (Maldição de Strahd)** e **Van Richten's Guide to Ravenloft (Guia de Van Richten para Ravenloft)** no Foundry VTT (D&D 5e).
+
+            ### ⚡ Instalação Direta no Foundry VTT (Manifest URL)
+            Cole o link abaixo em **Add-on Modules** > **Install Module** > **Manifest URL**:
+            ```text
+            https://github.com/Crespo767/curse-of-strahd-pt-br/releases/latest/download/module.json
+            ```
+
+            ### 📦 Conteúdo desta Versão
+            - **132 Atores e Criaturas**: 97 de Baróvia (Conde Strahd, Baba Lysaga, Madame Eva, Rahadin, Van Richten, noivas, etc.) e 35 do Guia de Van Richten (Desossado, Loup Garou, Nosferatu, Necrichor, etc.).
+            - **113 Mapas e Cenas de Batalha**: Todos os mapas da aventura e do Castelo Ravenloft com versões do mestre e do jogador, além dos 14 Domínios do Pavor de Ravenloft.
+            - **13 Itens Mágicos e Relíquias**: Lâmina Solar (*Sunsword*), Memorial de Strahd (*Tome of Strahd*), Símbolo Sagrado do Corvo-Bondoso, Ícone de Ravenloft, Cajado de Gulthias, Fêmur de Santa Markóvia, etc.
+            - **129 Tabelas de Rolagem**: Encontros em Baróvia, brinquedos de Blinsky, cartas e tabelas de horror de Ravenloft.
+            - **778 Imagens e Mapas Integrados**: Totalmente autônomo e sem dependência de imagens externas.
+
+            ### 🐉 Módulo de Regras Base
+            Para as regras e classes do PHB 2024, instale também:
+            [D&D 5e Compêndios Básicos PT-BR](https://github.com/Crespo767/d-d-pt-br-compendium)
+
+            ### 📦 Download Manual
+            - [curse-of-strahd-pt-br.zip](https://github.com/Crespo767/curse-of-strahd-pt-br/releases/download/${{ github.ref_name }}/curse-of-strahd-pt-br.zip)
+          files: |
+            curse-of-strahd-pt-br.zip
+            module.json
+          draft: false
+          prerelease: false
