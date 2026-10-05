@@ -1,0 +1,16 @@
+# Binary files - protect from LF/CRLF conversion or corruption
+*.ldb binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg binary
+*.zip binary
+
+# Text files - enforce LF line endings
+*.json text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
