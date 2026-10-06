@@ -63,7 +63,16 @@ O pacote reúne todo o acervo da campanha de terror gótico em pastas organizada
 
 ---
 
-## 👤 Autor e Créditos
+## ⚖️ Aviso Legal, Direitos Autorais e Créditos
 
-- **Adaptação e Tradução**: Heitor ([@Crespo767](https://github.com/Crespo767))
-- **D&D 5e / Maldição de Strahd / Van Richten's Guide to Ravenloft**: Wizards of the Coast.
+Este é um **conteúdo feito por fãs**, sem fins lucrativos, criado de forma voluntária para a comunidade brasileira de RPG de mesa no Foundry VTT.
+
+- **Curse of Strahd (A Maldição de Strahd) & Van Richten's Guide to Ravenloft**:
+  Todo o universo, personagens, ambientações, artes, regras e elementos narrativos são de propriedade intelectual exclusiva da **Wizards of the Coast LLC**, uma subsidiária da **Hasbro, Inc.**
+  - *Criadores Originais do Cenário de Ravenloft e do Módulo I6:* Tracy Hickman e Laura Hickman.
+  - *Designers e Autores de Curse of Strahd:* Christopher Perkins, com contribuições de Tracy Hickman, Laura Hickman, Adam Lee, Richard Whitters e Jeremy Crawford.
+  - *Autores de Van Richten's Guide to Ravenloft:* F. Wesley Schneider e equipe de design de D&D da Wizards of the Coast.
+- **Sistema Foundry VTT D&D 5e**:
+  Desenvolvido e mantido pela equipe da **Foundry Gaming LLC**.
+- **Política de Conteúdo de Fãs**:
+  Este produto foi adaptado e disponibilizado sob os termos da [Política de Conteúdo de Fãs da Wizards of the Coast](https://company.wizards.com/pt-BR/legal/fancontentpolicy). Não é um produto oficial, não possui fins comerciais e não é patrocinado, endossado ou afiliado à Wizards of the Coast ou Hasbro.
