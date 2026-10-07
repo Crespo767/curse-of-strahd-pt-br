@@ -31,7 +31,7 @@ https://github.com/Crespo767/curse-of-strahd-pt-br/releases/latest/download/modu
 O pacote reúne todo o acervo da campanha de terror gótico em pastas organizadas:
 
 - **Atores (132 fichas completas)**:
-  - **Maldição de Strahd (97 atores)**: Conde Strahd von Zarovich, Baba Lysaga, Madame Eva, Rahadin, Ezmerelda d'Avenir, Rudolph van Richten, Barão Vargas Vallakovich, Lady Fiona Wachter, Izek Strazni, Donavich, Doru, Pidlwick II, noivas vampíricas, Vistanis, lobisomens, caitiff e monstros de Baróvia.
+  - **Maldição de Strahd (97 atores)**: Conde Strahd von Zarovich, Baba Lysaga, Madame Eva, Rahadin, Ezmerelda d'Avenir, Rudolph van Richten, Barão Vargas Vallakovich, Lady Fiona Wachter, Izek Strazni, Donavich, Doru, Pidlwick II, noivas vampíricas, Vistani, lobisomens, caitiff e monstros de Baróvia.
   - **Guia de Van Richten para Ravenloft (35 atores)**: Desossado (Boneless), Loup Garou, Nosferatu, Necrichor, Inquisidor do Fogo Mental, Marionete de Carniça, Strigoi, Prole Estelar, Horrores Indizíveis e criaturas dos Domínios do Pavor.
 - **Cenas e Mapas de Batalha (113 mapas)**:
   - **Mapas da Aventura**: Vila de Baróvia, Casa da Morte (Death House), Lago Tser, Vallaki, Estalagem Água Azul, Casa Wachter, Igreja, Velho Moedor de Ossos, Argynvostholt, Krezk, Abadia de Santa Markóvia, Passagem Tsolenka, Ruínas de Berez, Colina Yester, Templo Âmbar, Covil dos Lobisomens e Torre de Van Richten.
@@ -51,7 +51,7 @@ O pacote reúne todo o acervo da campanha de terror gótico em pastas organizada
 ## 🎯 Padrão de Tradução e Glossário
 
 - Vocabulário canônico alinhado estritamente à edição oficial brasileira de **A Maldição de Strahd** e **Guia de Van Richten para Ravenloft**.
-- Preservação total de fórmulas, efeitos ativos (*Active Effects*), paredes, portas, luzes e notas de mapa no Foundry VTT.
+- Preservação total de fórmulas, efeitos ativos (*Active Effects*), paredes, portas e notas de mapa no Foundry VTT.
 
 ---
 
