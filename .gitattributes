@@ -7,6 +7,9 @@
 *.svg binary
 *.zip binary
 
+# LevelDB compendium packs - CURRENT/MANIFEST must never get CRLF, or LevelDB fails to open on Windows
+packs/** binary
+
 # Text files - enforce LF line endings
 *.json text eol=lf
 *.mjs text eol=lf
