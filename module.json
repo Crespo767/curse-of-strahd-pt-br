@@ -16,13 +16,6 @@
       "name": "Comunidade D&D 5e PT-BR"
     }
   ],
-  "languages": [
-    {
-      "lang": "pt-BR",
-      "name": "Português (Brasil)",
-      "path": "lang/pt-BR.json"
-    }
-  ],
   "esmodules": [
     "scripts/module.mjs"
   ],
