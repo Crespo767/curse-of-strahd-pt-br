@@ -8,16 +8,12 @@
   "download": "https://github.com/Crespo767/curse-of-strahd-pt-br/releases/latest/download/curse-of-strahd-pt-br.zip",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.350",
-    "maximum": "13"
+    "verified": "13.350"
   },
   "authors": [
     {
       "name": "Comunidade D&D 5e PT-BR"
     }
-  ],
-  "esmodules": [
-    "scripts/module.mjs"
   ],
   "packs": [
     {
@@ -117,8 +113,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "5.3.3",
-          "verified": "5.3.3",
-          "maximum": "5.3.999"
+          "verified": "5.3.3"
         }
       }
     ],

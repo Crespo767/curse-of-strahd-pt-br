@@ -30,7 +30,7 @@ jobs:
       - name: Prepare Clean Package
         run: |
           mkdir -p package/curse-of-strahd-pt-br
-          cp -r assets packs scripts module.json README.md package/curse-of-strahd-pt-br/
+          cp -r assets packs module.json README.md package/curse-of-strahd-pt-br/
           find package/curse-of-strahd-pt-br -name "LOCK" -delete || true
           find package/curse-of-strahd-pt-br -name "LOG*" -delete || true
           find package/curse-of-strahd-pt-br -name "*.log" -delete || true
