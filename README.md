@@ -5,6 +5,8 @@
 [![Release](https://img.shields.io/github/v/release/Crespo767/curse-of-strahd-pt-br?color=blue)](https://github.com/Crespo767/curse-of-strahd-pt-br/releases/latest)
 [![Idioma](https://img.shields.io/badge/Idioma-Portugu%C3%AAs%20(Brasil)-green.svg)]()
 
+> ✅ **Verificado em 09/10/2026** no Foundry VTT 13.350 com dnd5e 5.3.3: todos os compêndios carregam sem erros e todas as referências (links, magias, invocações, cenas e imagens) resolvem.
+
 Biblioteca completa de compêndios traduzidos e adaptados em **Português Brasileiro (PT-BR)** para o cenário e aventuras góticas de **Curse of Strahd (Maldição de Strahd)** e **Van Richten's Guide to Ravenloft (Guia de Van Richten para Ravenloft)** no **Foundry VTT** (sistema D&D 5e).
 
 Totalmente compatível com o módulo base de regras **[D&D Compêndios PT-BR](https://github.com/Crespo767/d-d-pt-br-compendium)**.
